@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact_text {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.icons {
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+}
+
+.btn {
+  font-size: 24px;
+  padding: 15px;
+  background-color: transparent;
+  color: #ececec;
+  border-radius: 8px;
+  border: 2px solid #ececec;
+  box-shadow: 4px 4px 8px rgb(0 203 255 / 50%);
+}

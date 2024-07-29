@@ -1,0 +1,15 @@
+.label {
+font-size: 20px;
+margin-bottom: 5px;
+}
+
+.input {
+    color: #ececec;
+        font-size: 32px;
+            border-radius: 8px;
+            border-color: #ececec;
+            background-color: inherit;
+            box-shadow: 4px 4px 8px rgb(0 203 255 / 50%);
+            margin-bottom: 40px;
+            width: 500px;
+}
