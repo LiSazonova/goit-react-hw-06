@@ -15,4 +15,9 @@
     max-width: 750px;
     box-shadow: 4px 4px 8px rgb(0 203 255 / 50%);
     align-items: center;
+    transition: transform 200ms ease-out;
+}
+
+.contacts_item:hover {
+transform: scale(1.03);
 }
