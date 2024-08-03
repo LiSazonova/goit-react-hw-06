@@ -17,6 +17,7 @@ const SearchBox = () => {
       <input
         className={s.input}
         type="text"
+        placeholder="Search..."
         value={filter}
         onChange={handleChange}
       />

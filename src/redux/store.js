@@ -7,17 +7,17 @@ import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE } from "redux-persist
 import initialContacts from '../components/contacts.json'
 import persistStore from "redux-persist/es/persistStore";
 
-const contactsPersistConfig = {
+const persistConfig = {
     key: 'contacts',
     storage,
     whitelist: ['items'],
 };
 
-const persistedContactsReducer = persistReducer(contactsPersistConfig, contactsReducer);
+const persistedReducer = persistReducer(persistConfig, contactsReducer);
 
 const store = configureStore({
     reducer: {
-        contacts: persistedContactsReducer,
+        contacts: persistedReducer,
         filters: filtersReducer,
     },
     middleware: (getDefaultMiddleware) =>

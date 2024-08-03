@@ -61,8 +61,7 @@ const ContactForm = () => {
           component="span"
         />
         <button className={s.btn} type="submit">
-          {' '}
-          Add contact{' '}
+          Add contact
         </button>
       </Form>
     </Formik>
